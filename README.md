@@ -81,7 +81,7 @@
    2. Insert the USB A connector into your computer
 2. Download the [Arduino IDE](https://www.arduino.cc/en/software) software
 3. Open Arduino IDE
-4. Open the file ‘[WekinatedRobotArm\_V1.ino](#tba)’
+4. Open the file ‘[WekinatedRobotArm\_V1.ino](arduino/WekinatedRobotArm_V2/WekinatedRobotArm_V2.ino)’
 5. Go to **“Tools”** \> **“Board”** and select the Arduino Nano Every board
 6. On the bottom left of the IDE, note the code provided regarding the board location
 7. Select the port that your Arduino Nano Every board is connected to
@@ -96,9 +96,9 @@
 1. Download the [Processing IDE](https://processing.org/download/) software
 2. Open the sketch ‘[processing\_osc\_to\_arduino.pde](processing/sketch_261013b/sketch_261013b.pde)’
 3. On the top left of the IDE, click the play button (**“run”**), and then once everything has loaded, click the stop button (**“stop”**)
-4. At the bottom of your IDE, scrolling to the top of the black console window will show your ‘available serial ports’, find and note down the port number that corresponds to the same board location in (6) <a href="#arduino-preparation">[Arduino Set Up]</a> above.
-5. Returning to your sketch, where it notes **“`Serial.list()[x]`”** ensure the x is replaced with the relevant port number noted in (4),
-6. Where the sketch states **“`oscP5 = new OscP5(this, y)`”** note y for future reference.
+4. <a id="processing-step-4"></a>At the bottom of your IDE, scrolling to the top of the black console window will show your ‘available serial ports’, find and note down the port number that corresponds to the same board location in (6) <a href="#arduino-preparation">[Arduino Set Up]</a> above.
+5. <a id="processing-step-5"></a>Returning to your sketch, where it notes **“`Serial.list()[x]`”** ensure the x is replaced with the relevant port number noted in (4),
+6. <a id="processing-step-6"></a>Where the sketch states **“`oscP5 = new OscP5(this, y)`”** note y for future reference.
 
 ### Wekinator Preparation
 
@@ -185,10 +185,12 @@ The following diagram taken from the Cyber Physical Systems module details the c
 
 **Test Steps:**
 
-1. Open the [SweepUnitTest.ino](#tb file in the Arduino IDE
+1. Open the [SweepUnitTest.ino](arduino/SweepUnitTest/SweepUnitTest.ino) file in the Arduino IDE
 2. Validate then Upload the sketch to the Arduino Nano Every
 3. Verify each of the 4 servo motors sweeps their full range of motion
+
 **4a.** If all 4 servo move as expected, test is complete
+
 **4b.** If any of the 4 servos do not sweep their full range of motion, check the following:
 
 - [ ] Are all wires in the circuit correctly connected?
@@ -208,8 +210,10 @@ The following diagram taken from the Cyber Physical Systems module details the c
 1. Follow the ReadMe setup instructions in the [System Setup](#system-setup) section to ensure all applications are running 
 2. Verify that moving the green box to a specified region within the Wekinator input file is reflected in the most recent Console line in the Processing app.
 3. Check that all wire connections are intact
-If any issues arise, check: 
-  Have you completed (4)  [Processing Preparation]?
-  Have you completed (5)  [Processing Preparation]?
-  Have you completed (6)  [Processing Preparation]? 
+
+**[If any issues arise, check:](assets/flowchart-v8.jpg)**
+
+- [ ] Have you completed (4) <a href="#processing-step-4">[Processing Preparation]</a>?
+- [ ] Have you completed (5) <a href="#processing-step-5">[Processing Preparation]</a>?
+- [ ] Have you completed (6) <a href="#processing-step-6">[Processing Preparation]</a>?
 
