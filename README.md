@@ -102,6 +102,10 @@
 
 ### Wekinator Preparation
 
+<p align="center">
+  <img src="wekinator/mouse-region-mapping.png" alt="" width="640" />
+</p>
+
 1. Download the Wekinator and [mouse input software](input/Simple_Mouse_DraggedObject_2Inputs.app.zip)
 2. Open the [mouse input software](input/Simple_Mouse_DraggedObject_2Inputs.app.zip), and ensure that as you move the green square around the black window, the corresponding coordinates change.
 3. Open Wekinator
