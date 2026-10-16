@@ -102,8 +102,8 @@
 
 ### Wekinator Preparation
 
-1. Download the Wekinator and mouse input software
-2. Open the mouse input software, and ensure that as you move the green square around the black window, the corresponding coordinates change.
+1. Download the Wekinator and [mouse input software](input/Simple_Mouse_DraggedObject_2Inputs.app.zip)
+2. Open the [mouse input software](input/Simple_Mouse_DraggedObject_2Inputs.app.zip), and ensure that as you move the green square around the black window, the corresponding coordinates change.
 3. Open Wekinator
 
 > **NOTE:** If existing Robot Arm training model is available, skip steps 4-6
@@ -122,7 +122,7 @@
    1. On the top left of the IDE, click the play button (**“run”**), and wait until everything has loaded.
 2. Open Wekinator
    1. Click **‘Run’**
-3. Open your mouse input software and move the green cube to your desired class locations
+3. Open your [mouse input software](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) and move the green cube to your desired class locations
 
 ---
 
@@ -147,8 +147,8 @@ The following diagram taken from the Cyber Physical Systems module details the c
 1. Open the Wekinator app
 2. Click File \> Open project
 3. Select the [RobotArmTraining.wekproj](wekinator/RobotArmTraining.wekproj) file
-4. Launch the Simple\_Mouse\_DraggedObject\_2Inputs app
-5. Move the green box around the screen within Simple\_Mouse\_DraggedObject\_2Inputs app and verify that the Wekinator file output updates to the corresponding expected numerical region the green box is located within. Expected Wekinator output to green box position pairing listed below.
+4. Launch the [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app
+5. Move the green box around the screen within [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app and verify that the Wekinator file output updates to the corresponding expected numerical region the green box is located within. Expected Wekinator output to green box position pairing listed below.
    - [ ] Output 1 \- Bottom Right
    - [ ] Output 2 \- Top Left
    - [ ] Output 3 \- Middle Right
@@ -169,7 +169,7 @@ The following diagram taken from the Cyber Physical Systems module details the c
 
 **Test Steps:**
 
-1. Open the Simple\_Mouse\_DraggedObject\_2Inputs app
+1. Open the [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app
 2. Open the [RobotArmTraining.wekproj](wekinator/RobotArmTraining.wekproj) file in Wekinator
 3. Open the [processing\_osc\_to\_arduino.pde](processing/sketch_261013b/sketch_261013b.pde) file in Processing
 4. Run the Wekinator file and Processing file
@@ -206,5 +206,5 @@ The following diagram taken from the Cyber Physical Systems module details the c
 **Test Steps:**
 
 1. Follow the ReadMe setup instructions in the [System Setup](#system-setup) section to ensure all applications are running and begin controlling robot arm by moving the green box in the Simple\_Mouse\_DraggedObject\_2Input application
-2. If any issues arise, pay attention to:
+2. [If any issues arise, pay attention to:](assets/flowchart-v8.jpg)
    1. <a id="tba"></a>[TBA]
