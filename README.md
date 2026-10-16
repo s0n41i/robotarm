@@ -81,7 +81,7 @@
    2. Insert the USB A connector into your computer
 2. Download the [Arduino IDE](https://www.arduino.cc/en/software) software
 3. Open Arduino IDE
-4. Open the file ‘[WekinatedRobotArm\_V1.ino](arduino/WekinatedRobotArm_V2/WekinatedRobotArm_V2.ino)’
+4. Open the file ‘[WekinatedRobotArm\_V2.ino](arduino/WekinatedRobotArm_V2/WekinatedRobotArm_V2.ino)’
 5. Go to **“Tools”** \> **“Board”** and select the Arduino Nano Every board
 6. On the bottom left of the IDE, note the code provided regarding the board location
 7. Select the port that your Arduino Nano Every board is connected to
@@ -94,7 +94,7 @@
 ### Processing Preparation
 
 1. Download the [Processing IDE](https://processing.org/download/) software
-2. Open the sketch ‘[processing\_osc\_to\_arduino.pde](processing/sketch_261013b/sketch_261013b.pde)’
+2. Open the sketch ‘[sketch\_261013b.pde](processing/sketch_261013b/sketch_261013b.pde)’
 3. On the top left of the IDE, click the play button (**“run”**), and then once everything has loaded, click the stop button (**“stop”**)
 4. <a id="processing-step-4"></a>At the bottom of your IDE, scrolling to the top of the black console window will show your ‘available serial ports’, find and note down the port number that corresponds to the same board location in (6) <a href="#arduino-preparation">[Arduino Set Up]</a> above.
 5. <a id="processing-step-5"></a>Returning to your sketch, where it notes **“`Serial.list()[x]`”** ensure the x is replaced with the relevant port number noted in (4),
@@ -146,7 +146,7 @@ The following diagram taken from the Cyber Physical Systems module details the c
 
 1. Open the Wekinator app
 2. Click File \> Open project
-3. Select the [RobotArmTraining.wekproj](wekinator/RobotArmWekinatorFINAL/RobotArmWekinatorFINAL.wekproj) file
+3. Select the [RobotArmWekinatorFINAL.wekproj](wekinator/RobotArmWekinatorFINAL/RobotArmWekinatorFINAL.wekproj) file
 4. Launch the [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app
 5. Move the green box around the screen within [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app and verify that the Wekinator file output updates to the corresponding expected numerical region the green box is located within. Expected Wekinator output to green box position pairing listed below.
    - [ ] Output 1 \- Bottom Right
@@ -170,8 +170,8 @@ The following diagram taken from the Cyber Physical Systems module details the c
 **Test Steps:**
 
 1. Open the [Simple\_Mouse\_DraggedObject\_2Inputs](input/Simple_Mouse_DraggedObject_2Inputs.app.zip) app
-2. Open the [RobotArmTraining.wekproj](wekinator/RobotArmWekinatorFINAL/RobotArmWekinatorFINAL.wekproj) file in Wekinator
-3. Open the [processing\_osc\_to\_arduino.pde](processing/sketch_261013b/sketch_261013b.pde) file in Processing
+2. Open the [RobotArmWekinatorFINAL.wekproj](wekinator/RobotArmWekinatorFINAL/RobotArmWekinatorFINAL.wekproj) file in Wekinator
+3. Open the [sketch\_261013b.pde](processing/sketch_261013b/sketch_261013b.pde) file in Processing
 4. Run the Wekinator file and Processing file
 5. Verify that moving the green box to each of the 9 specified regions within the Wekinator input file is reflected in the most recent Console line in the Processing app (i.e. moving the green box to the Bottom Center of the Simple\_Mouse\_DraggedObject\_2Input, generated the following message line in the Processing console: *\#\#\# received an osc message /test with typetag f. values: 7.0*)
 
