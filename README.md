@@ -185,7 +185,7 @@ The following diagram taken from the Cyber Physical Systems module details the c
 
 **Test Steps:**
 
-1. Open the [SweepUnitTest.ino](#tba) file in the Arduino IDE
+1. Open the [SweepUnitTest.ino](#tb file in the Arduino IDE
 2. Validate then Upload the sketch to the Arduino Nano Every
 3. Verify each of the 4 servo motors sweeps their full range of motion
 **4a.** If all 4 servo move as expected, test is complete
@@ -205,6 +205,11 @@ The following diagram taken from the Cyber Physical Systems module details the c
 
 **Test Steps:**
 
-1. Follow the ReadMe setup instructions in the [System Setup](#system-setup) section to ensure all applications are running and begin controlling robot arm by moving the green box in the Simple\_Mouse\_DraggedObject\_2Input application
-2. [If any issues arise, pay attention to:](assets/flowchart-v8.jpg)
-   1. <a id="tba"></a>[TBA]
+1. Follow the ReadMe setup instructions in the [System Setup](#system-setup) section to ensure all applications are running 
+2. Verify that moving the green box to a specified region within the Wekinator input file is reflected in the most recent Console line in the Processing app.
+3. Check that all wire connections are intact
+If any issues arise, check: 
+  Have you completed (4)  [Processing Preparation]?
+  Have you completed (5)  [Processing Preparation]?
+  Have you completed (6)  [Processing Preparation]? 
+
